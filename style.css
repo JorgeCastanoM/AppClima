@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 62.5%;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    width: 100%;    
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    background-image: url(./animated/large-triangles.svg);
+}
+
+header h1{
+    color: white;
+
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 80vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(./animated/Animated\ Shape.svg);
+}
+
+.container div{
+
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    justify-items: center;
+    border-radius: 50px;
+    padding: 50px;
+    color: whitesmoke;
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(1px);
+            backdrop-filter: blur(1px);
+}
+
+.container #box1{
+    font-size: 8.0rem;
+}
+
+.container #box2{
+    font-size: 8.0rem;
+}
+
+.container #box3{
+    font-size: 8.0rem;
+}
+
+.container #box4{
+    font-size: 8.0rem;
+}
+
+footer{
+    background-image: url(./animated/large-triangles.svg);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+footer h3{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-left: 50px;
+}
+
